@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Ucu.Poo.Twitter</AssemblyName>
+    <TargetFramework>net7.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2"/>
+    <PackageReference Include="Nito.AsyncEx" Version="5.1.2"/>
+    <PackageReference Include="RestSharp" Version="110.2.0"/>
+  </ItemGroup>
+</Project>
